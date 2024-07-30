@@ -9,6 +9,22 @@ javax.script.ScriptEngineManager;
 javax.script.ScriptException;
 ```
 
+### ScriptEngineManager
+
+JDK 8 怎麼說：
+> The ScriptEngineManager implements a discovery and instantiation mechanism for ScriptEngine classes and also maintains a collection of key/value pairs storing state shared by all engines created by the Manager. This class uses the service provider mechanism to enumerate all the implementations of ScriptEngineFactory.
+
+
+簡單一句話：`ScriptEngineManager` 用來管理 `ScriptEngine`
+
+```java
+ScriptEngineManager manager = new ScriptEngineManager();
+
+ScriptEngine engine = manager.getEngineByName("javascript");
+```
+
+----
+
 ### Upgrade Journey
 * [Rhino Migration Guide](https://wiki.openjdk.org/display/Nashorn/Rhino+Migration+Guide) (JDK 7 to JDK 8)
 
