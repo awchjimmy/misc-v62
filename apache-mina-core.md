@@ -7,6 +7,7 @@ org.apache.mina.common.IoAcceptor;
 org.apache.mina.common.IoFilter.WriteRequest;
 org.apache.mina.common.IoFilterChain;
 org.apache.mina.common.IoHandler;
+org.apache.mina.common.IoHandlerAdapter;
 org.apache.mina.common.IoService;
 org.apache.mina.common.IoServiceConfig;
 org.apache.mina.common.IoSession;
