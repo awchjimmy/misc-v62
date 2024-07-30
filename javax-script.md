@@ -8,3 +8,6 @@ javax.script.ScriptEngineFactory;
 javax.script.ScriptEngineManager;
 javax.script.ScriptException;
 ```
+
+### Upgrade Journey
+* [Rhino Migration Guide](https://wiki.openjdk.org/display/Nashorn/Rhino+Migration+Guide) (JDK 7 to JDK 8)
