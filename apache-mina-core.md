@@ -28,3 +28,6 @@ org.apache.mina.filter.codec.ProtocolEncoderOutput;
 org.apache.mina.transport.socket.nio.SocketAcceptor;
 org.apache.mina.transport.socket.nio.SocketAcceptorConfig;
 ```
+
+### 備註
+* `mina-core:1.1.7` is the latest version runs on jdk 7.
