@@ -21,6 +21,18 @@ ScriptEngineManager manager = new ScriptEngineManager();
 ScriptEngine engine = manager.getEngineByName("javascript");
 ```
 
+要怎麼知道 `getEngineByName` 有什麼選項呢？
+> shortName - The short name of the ScriptEngine implementation. returned by the getNames method of its ScriptEngineFactory.
+
+```java
+ScriptEngineManager manager = new ScriptEngineManager();
+List<ScriptEngineFactory> factories = manager.getEngineFactories();
+
+for (ScriptEngineFactory factory : factories) {
+    List<String> names = factory.getNames();
+}
+```
+
 ### ScriptEngineFactory
 
 JDK 8 怎麼說：
