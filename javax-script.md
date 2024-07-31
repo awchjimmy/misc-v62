@@ -49,6 +49,10 @@ JDK 8 怎麼說：
 * [Rhino Migration Guide](https://wiki.openjdk.org/display/Nashorn/Rhino+Migration+Guide) (JDK 7 to JDK 8)
 * [The Nashorn Java API](https://docs.oracle.com/javase//9/nashorn/nashorn-java-api.htm)
 
+### 升級痛點
+從 Rhino 的 package 到 Nashorn 的 class。  
+從一個 script 的觀點來看，必須先找到使用哪些 class，再找到它屬於哪個 package 才能引用，沒辦法單純搜尋取代完成。
+
 ### Search for these top-level package names
 
 |Rhino|Nashorn|
