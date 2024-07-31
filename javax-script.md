@@ -47,6 +47,7 @@ JDK 8 怎麼說：
 
 ### Upgrade Journey
 * [Rhino Migration Guide](https://wiki.openjdk.org/display/Nashorn/Rhino+Migration+Guide) (JDK 7 to JDK 8)
+* [The Nashorn Java API](https://docs.oracle.com/javase//9/nashorn/nashorn-java-api.htm)
 
 ### Search for these top-level package names
 
