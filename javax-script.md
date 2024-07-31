@@ -53,6 +53,12 @@ JDK 8 怎麼說：
 從 Rhino 的 package 到 Nashorn 的 class。  
 從一個 script 的觀點來看，必須先找到使用哪些 class，再找到它屬於哪個 package 才能引用，沒辦法單純搜尋取代完成。
 
+### 升級步驟
+1. 乾脆刪除全部的 `importPackage`
+2. 建立一個 class,full_package_class 的表格
+3. 查表有沒有用到 class
+4. 有用到的 class 查表新增對應 `Java.type`，例如：`var MapleJob = Java.type("net.sf.odinms.client.MapleJob");`
+
 ### Search for these top-level package names
 
 |Rhino|Nashorn|
