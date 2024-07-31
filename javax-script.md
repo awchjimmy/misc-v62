@@ -12,8 +12,9 @@ javax.script.ScriptException;
 ### ScriptEngineManager
 
 JDK 8 怎麼說：
-> The ScriptEngineManager implements a discovery and instantiation mechanism for ScriptEngine classes and also maintains a collection of key/value pairs storing state shared by all engines created by the Manager. This class uses the service provider mechanism to enumerate all the implementations of ScriptEngineFactory.
+> ScriptEngineFactory is used to describe and instantiate ScriptEngines.
 
+> The ScriptEngineManager implements a discovery and instantiation mechanism for ScriptEngine classes and also maintains a collection of key/value pairs storing state shared by all engines created by the Manager. This class uses the service provider mechanism to enumerate all the implementations of ScriptEngineFactory.
 
 簡單一句話：`ScriptEngineManager` 用來管理 `ScriptEngine`
 
@@ -22,6 +23,11 @@ ScriptEngineManager manager = new ScriptEngineManager();
 
 ScriptEngine engine = manager.getEngineByName("javascript");
 ```
+
+### ScriptEngine
+
+JDK 8 怎麼說：
+> ScriptEngine is the fundamental interface whose methods must be fully functional in every implementation of this specification.
 
 ----
 
