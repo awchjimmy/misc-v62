@@ -48,6 +48,8 @@ JDK 8 怎麼說：
 JDK 8 怎麼說：
 > The optional interface implemented by ScriptEngines whose methods allow the invocation of procedures in scripts that have previously been executed.
 
+讓 java 可以呼叫 js 寫的 function
+
 ----
 
 ### Upgrade Journey
