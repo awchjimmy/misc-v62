@@ -43,6 +43,11 @@ JDK 8 怎麼說：
 JDK 8 怎麼說：
 > ScriptEngine is the fundamental interface whose methods must be fully functional in every implementation of this specification.
 
+### Invocable
+
+JDK 8 怎麼說：
+> The optional interface implemented by ScriptEngines whose methods allow the invocation of procedures in scripts that have previously been executed.
+
 ----
 
 ### Upgrade Journey
