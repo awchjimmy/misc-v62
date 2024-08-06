@@ -1,1 +1,2 @@
 - [The Java Remote Method Invocation API (Java RMI)](https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/hello/hello-world.html)
+- [Getting Started Using Java RMI](https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/hello/hello-world.html)
