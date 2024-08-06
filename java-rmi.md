@@ -26,4 +26,6 @@ public class WorldLoginInterfaceImpl extends UnicastRemoteObject implements Worl
 public class WorldRegistryImpl extends UnicastRemoteObject implements WorldRegistry {}
 ```
 
-### Client
+### Implement the client
+JDK 8 怎麼說：  
+The client program obtains a stub for the registry on the server's host, looks up the remote object's stub by name in the registry, and then invokes the `sayHello` method on the remote object using the stub.
